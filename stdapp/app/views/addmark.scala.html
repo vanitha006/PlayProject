@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Marks</title>
+    <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
+    <!--link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+    <script src="@routes.Assets.at("javascripts/jquery-1.9.0.min.js")" type="text/javascript"></script-->
+</head>
+<body>
+<h2 id="heading">Login Page</h2>
+    <form method="get" action="/welcome">
+        Subject:
+        <input type="email" placeholder="Email" name="sub"/><br/><br/>
+        Marks:
+        <input type="password" placeholder="Password" name="mark"/><br/><br/>
+        <input type="submit" name="submit" value="Add"/>
+    </form>
+</body>
+</html>
